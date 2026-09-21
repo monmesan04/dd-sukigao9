@@ -42,3 +42,4 @@ $("#prelimNext").onclick=prelimNext;$("#prelimBack").onclick=()=>{if(state.preli
 $("#mainIntroBtn").onclick=()=>{setupMain();show("main")};$("#retryBtn").onclick=start;$("#mainStartBtn").onclick=()=>{setupMain();show("main")};
 $("#lastStartBtn").onclick=()=>{renderLast();show("last")};$("#finalStartBtn").onclick=startFinal;$("#copyBtn").onclick=copyResult;$("#restartBtn").onclick=start;$("#topBtn").onclick=()=>show("home");
 window.addEventListener("load",()=>{if(state&&state.stage&&state.stage!=="home")$("#resumeBtn").hidden=false});
+
